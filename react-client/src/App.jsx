@@ -1,8 +1,10 @@
 import Header from "./Buoi2_3/component/Header";
 import StudentInfo from "./Buoi2_3/component/StudentInfo";
 import Footer from "./Buoi2_3/component/Footer";
-
+import StatusBadge from "./Buoi2_3/component/StatusBadge";
 import ControlledForm from "./Buoi2_3/component/ControlledForm";
+import ToDoShow from "./Buoi2_3/component/ToDoShow";
+import CounterApp from "./Buoi2_3/component/CounterApp";
 function App() {
   return (
     <div
@@ -36,9 +38,18 @@ function App() {
           />
           <Footer/>
         </div>
+        <div style={{ marginTop: 24 }}>
+          <CounterApp/>
+        </div>
 
         <div style={{ marginTop: 24 }}>
           <ControlledForm/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <StatusBadge/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <ToDoShow/>
         </div>
       </div>
     </div>

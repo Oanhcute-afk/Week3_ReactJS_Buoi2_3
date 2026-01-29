@@ -5,6 +5,9 @@ import StatusBadge from "./Buoi2_3/component/StatusBadge";
 import ControlledForm from "./Buoi2_3/component/ControlledForm";
 import ToDoShow from "./Buoi2_3/component/ToDoShow";
 import CounterApp from "./Buoi2_3/component/CounterApp";
+import DigitalClock from "./Buoi2_3/component/DigitalClock";
+import UserForm from "./Buoi2_3/component/UserForm";
+import Stopwatch from "./Buoi2_3/component/Stopwatch";
 function App() {
   return (
     <div
@@ -27,6 +30,7 @@ function App() {
           boxShadow: "0 0 10px rgba(0,0,0,0.1)",
         }}
       >
+        
        
 
         <div style={{ marginTop: 24 }}>
@@ -50,6 +54,15 @@ function App() {
         </div>
         <div style={{ marginTop: 24 }}>
           <ToDoShow/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <UserForm/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <DigitalClock/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <Stopwatch/>
         </div>
       </div>
     </div>

@@ -8,6 +8,9 @@ import CounterApp from "./Buoi2_3/component/CounterApp";
 import DigitalClock from "./Buoi2_3/component/DigitalClock";
 import UserForm from "./Buoi2_3/component/UserForm";
 import Stopwatch from "./Buoi2_3/component/Stopwatch";
+import ProductFilter from "./Buoi2_3/component/ProductFilter";
+import TodoApp from "./Buoi2_3/component/TodoListPerformance";
+import AppTheme from "./Buoi2_3/component/ThemeSwitcher";
 function App() {
   return (
     <div
@@ -63,6 +66,15 @@ function App() {
         </div>
         <div style={{ marginTop: 24 }}>
           <Stopwatch/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <ProductFilter/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <TodoApp/>
+        </div>
+        <div style={{ marginTop: 24 }}>
+          <AppTheme/>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from "react";
 
-const ToDoItem = React.memo(({todo,onToggle,onDelete})=>{
+const TodoItem = React.memo(({todo,onToggle,onDelete})=>{
     return (
     <li>
       <input type="checkbox" checked={todo.done} onChange={() => onToggle(todo.id)} />
